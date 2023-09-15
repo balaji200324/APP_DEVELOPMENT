@@ -1,0 +1,145 @@
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    height: auto;
+  }
+  
+  .signup-page h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(15, 212, 199, 0.975);
+    margin-top: auto;
+  }
+  
+  .form-group {
+    margin-top: auto;
+    margin-bottom: 5px;
+    margin-right: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  .phone-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ce7df1;
+    border-radius: 3px;
+  }
+  
+  .phone-input input {
+    padding-left: 45px;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #2ee1c3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0cb300;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-link a {
+    font-size: large;
+    color: #bd02fc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    color: #ff001e;
+    text-decoration: underline;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .signup-page {
+      padding: 40px;
+    }
+  
+    form {
+      padding: 30px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    .phone-input input {
+      padding: 15px;
+    }
+  
+    button[type="submit"] {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .signup-page {
+      height: auto;
+    }
+  }
+
+  .signup-container {
+    display: flex;
+    align-items: stretch; 
+  }
+  
+  .background-register {
+    flex: 1; 
+    background-image: url('../img/Signup.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  
+  .registration-form {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+
+  }
+  

@@ -1,0 +1,129 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+  }
+  
+  .login-page h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(15, 212, 199, 0.975);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ce7df1;
+    border-radius: 3px;
+  }
+  
+  button[type="button"] {
+    background-color: #2ee1c3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+    width: 40%;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0cb300;
+  }
+  
+  .login-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+  
+  .login-links p {
+    margin-bottom: 10px;
+  }
+  
+  .login-links a {
+    font-size: large;
+    color: fuchsia;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-links a:hover {
+    color: tomato;
+    text-decoration: underline;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #ffffff;
+    height: auto;
+  }
+  
+.background-login {
+    flex: 1;
+    background-image: url('../img/login.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .login-page {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .login-page {
+      padding: 40px;
+    }
+  
+    form {
+      padding: 30px;
+    }
+  
+    input[type="text"],
+    input[type="password"],
+    select {
+      padding: 15px;
+    }
+  
+    button[type="button"] {
+      font-size: 1.25rem;
+    }
+  }
+  
