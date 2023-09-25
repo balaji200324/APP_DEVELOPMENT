@@ -1,0 +1,133 @@
+/* ScheduleCalendar.css */
+
+/* Container styles */
+.container {
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  /* Calendar title styles */
+  .calendar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Calendar container styles */
+  .calendar-container {
+    
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Event title styles */
+  .rbc-event {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  /* Event title styles on hover */
+  .rbc-event:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Event time styles */
+  .rbc-time {
+    font-size: 0.75rem;
+    color: #333;
+  }
+  
+  /* Previous and Next button styles */
+  .rbc-header {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Styles for the date navigation buttons */
+  .rbc-header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the date navigation buttons on hover */
+  .rbc-header button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Date display styles */
+  .rbc-date {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Today button styles */
+  .rbc-today button {
+    background-color: #28a745;
+  }
+  
+  /* Styles for the today button on hover */
+  .rbc-today button:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Event tooltip styles */
+  .rbc-tooltip {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    max-width: 200px;
+    text-align: center;
+    z-index: 1000;
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom styles for the "All Day" events */
+  .rbc-allday-cell {
+    background-color: #f8f9fa;
+  }
+  
+  /* Styles for the "All Day" events in the agenda view */
+  .rbc-agenda-allday-cell {
+    background-color: #f8f9fa;
+  }
+  
+  /* Custom styles for the event in the agenda view */
+  .rbc-agenda-event {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Custom styles for the "More" link in the agenda view */
+  .rbc-agenda-more {
+    background-color: #f8f9fa;
+    font-size: 0.875rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Styles for the "More" link on hover */
+  .rbc-agenda-more:hover {
+    background-color: #dee2e6;
+  }
+  
