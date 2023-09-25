@@ -1,0 +1,161 @@
+/* Style the dashboard container */
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Make the container fill the entire screen height */
+}
+
+/* Style the sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #6a00fec8;
+  color: #6561e185;
+  padding: 5px;
+  height: 100%; /* Make the sidebar fill the entire container height */
+  overflow-y: auto; /* Add vertical scroll if needed */
+}
+
+/* Style the sidebar navigation buttons */
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+
+.sidebar-nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #e1ff00;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Style the main content area */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Style the user name */
+.user-name {
+  color: rgb(14, 13, 13);
+}
+
+/* Style the "Let's begin your journey with us!" text */
+.welcome-text {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif; /* Use your desired font */
+  font-size: 18px;
+  color: #555; /* Customize the color as needed */
+  margin-top: 10px;
+}
+
+/* Style the new text */
+.sub-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: rgb(48, 46, 46); /* Grey color */
+  margin-top: 10px;
+}
+
+/* Hover effect for sidebar buttons */
+.sidebar-nav button:hover {
+  background-color: #00b43c;
+}
+
+/* Add this to your dashboard.css */
+
+/* Style the chart container */
+.chart-container {
+  margin-top: 20px;
+  background-color: #a5929264;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Add this CSS to your existing dashboard.css or a separate CSS file */
+
+/* Style for the chart container */
+.chart {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the bar chart */
+.bar {
+  height: 20px;
+  background-color: #3498db; /* Change the color as needed */
+  border-radius: 4px;
+  position: relative;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background-color: #e74c3c; /* Change the color as needed */
+}
+
+/* Style for the pie chart */
+.pie {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #994fb9; /* Change the color as needed */
+}
+
+.slice {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  clip: rect(0, 50px, 100px, 0);
+  border-radius: 50%;
+  background-color: #3498db; /* Change the color as needed */
+  transform-origin: 100%;
+}
+
+/* Style for the pyramid chart */
+.pyramid {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: #ecf0f1; /* Change the color as needed */
+}
+
+.layer {
+  width: 100%;
+  position: absolute;
+  background-color: #3498db; /* Change the color as needed */
+}
+
+/* Pyramid chart specific layer heights */
+.layer:nth-child(1) {
+  height: 10%;
+}
+
+.layer:nth-child(2) {
+  height: 20%;
+}
+
+.layer:nth-child(3) {
+  height: 30%;
+}
+
+.layer:nth-child(4) {
+  height: 40%;
+}
+
+.layer:nth-child(5) {
+  height: 50%;
+}

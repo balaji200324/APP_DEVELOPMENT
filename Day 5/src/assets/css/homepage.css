@@ -1,0 +1,103 @@
+
+
+header {
+  background-color: #266f7c;
+  color: #45e81c;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 12000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Style the left corner with smaller font size */
+.navbar-left {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Position the right corner to the right and align it */
+.navbar-right-small {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the navigation links in the right corner */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+/* Style the links in the right corner */
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Change link color on hover in the right corner */
+.nav-links a:hover {
+  color: #ff5722;
+}
+
+/* Style the video background container */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+
+
+/* Center the centered text container */
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the "Birthday Party" text */
+.birthday-party-text {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #ff5722;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the rest of the text */
+.centered-text h1 {
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .navbar-left {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+  
+  .navbar-right-small {
+    display: none; /* Hide the right corner links on smaller screens */
+  }
+}
